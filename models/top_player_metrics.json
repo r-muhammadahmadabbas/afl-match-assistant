@@ -1,0 +1,17 @@
+{
+  "disposals": {
+    "mae": 3.581,
+    "rmse": 4.6174
+  },
+  "goals": {
+    "mae": 0.7137,
+    "rmse": 0.9598
+  },
+  "fantasy_points": {
+    "mae": 16.7262,
+    "rmse": 20.9568
+  },
+  "train_rows": 107073,
+  "test_rows": 2808,
+  "test_season": 2025
+}

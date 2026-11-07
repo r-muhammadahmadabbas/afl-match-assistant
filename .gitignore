@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tests / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Large raw data (download instructions in data/README.md)
+data/raw/*
+!data/raw/afl_players_info_raw.csv
+!data/raw/.gitkeep
+
+# Model artifacts are small enough to ship, but keep local experiments out.
+models/*.pkl
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
