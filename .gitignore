@@ -29,10 +29,10 @@ logs/
 *.log
 
 # Environment
-.env
 
 # OS / editors
 .DS_Store
 Thumbs.db
 .idea/
-.vscode/
+config.bat
+node_modules
